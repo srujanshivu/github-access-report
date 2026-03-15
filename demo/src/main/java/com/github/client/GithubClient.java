@@ -12,7 +12,7 @@ public class GithubClient {
 
     private RestTemplate restTemplate = new RestTemplate();
 
-    private String token = "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";
+    private String token = "YOUR_GITHUB_TOKEN"; // Replace with your GitHub token
 
     public List<Map<String, Object>> getRepositories() {
 
